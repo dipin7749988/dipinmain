@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(http://i.imgur.com/WBTMmCc.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+header.jumbotron h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #222;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://i.imgur.com/rSGFlIz.jpg);
+  background-size: cover;
+  height: 350px;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+  text-align: center;
+  color: #ff6e3a;
+}
+
+section#section_ask2 {
+  text-align: center;
+}
+section#section_ask2 .col-sea {
+  padding: 90px;
+}
+section#section_ask2 img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+section#section_about img {
+  width: 130%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story i {
+  color: #ff6e3a;
+}
+section#section_story .orange {
+  color: #ff6e3a;
+}
+section#section_story .col-sm-5 {
+  background-image: url(http://i.imgur.com/e9Tvr5V.jpg);
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+section#section_story .col-sm-12.more {
+  text-align: left;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section#section_future .featured {
+  color: #B9121B;
+}
+
+section.story {
+  text-align: center;
+  background-color: #eee;
+}
+section.story h1 {
+  color: #B9121B;
+}
+section.story h2 {
+  color: #B9121B;
+}
+section.story p.h2 {
+  color: #B9121B;
+}
+section.story .col-md-6 {
+  padding: 20px;
+}
+section.story .icon-sea {
+  width: 80px;
+  margin-bottom: 20px;
+}
+section.story .logo {
+  font-weight: 900;
+}
+section.story .logo2 {
+  margin-top: -7px;
+  font-family: Merriweather;
+}
+section.story .logo3 {
+  font-family: 標楷體;
+  margin-top: -7px;
+}
+
+section#pictures {
+  padding: 0px;
+  color: white;
+}
+section#pictures .col-md-6 {
+  padding: 135px;
+  cursor: pointer;
+}
+section#pictures .col-md-6:hover h4 {
+  opacity: 0.7;
+}
+section#pictures .col-md-6:hover:before {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  background-size: auto 140%;
+}
+section#pictures .col-md-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-position: center center;
+}
+section#pictures .pic1:before {
+  background-image: url(http://i.imgur.com/ibOExHa.jpg);
+  background-size: auto 100%;
+}
+section#pictures .pic2:before {
+  background-image: url(http://i.imgur.com/kTh7okF.jpg);
+  background-size: auto 100%;
+}
+section#pictures p {
+  opacity: 0.4;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+footer#jumbotron {
+  text-align: center;
+  background-image: url(http://i.imgur.com/WBTMmCc.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer#jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer#jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer#jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+footer#jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}

@@ -165,6 +165,7 @@ section.story .logo3 {
 }
 
 section#pictures {
+  text-align: center;
   padding: 0px;
   color: white;
 }
@@ -172,8 +173,11 @@ section#pictures .col-md-6 {
   padding: 135px;
   cursor: pointer;
 }
-section#pictures .col-md-6:hover h4 {
+section#pictures .col-md-6:hover .h4 {
   opacity: 0.7;
+}
+section#pictures .col-md-6:hover .h1 {
+  text-decoration: none;
 }
 section#pictures .col-md-6:hover:before {
   -webkit-filter: brightness(0.5);
@@ -200,6 +204,9 @@ section#pictures .pic1:before {
 section#pictures .pic2:before {
   background-image: url(http://i.imgur.com/kTh7okF.jpg);
   background-size: auto 100%;
+}
+section#pictures a {
+  text-decoration: none;
 }
 section#pictures p {
   opacity: 0.4;
@@ -232,4 +239,11 @@ footer#jumbotron hr {
 footer#jumbotron h4 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: normal;
+}
+footer#jumbotron .btn.btn-primary {
+  background-color: #eee;
+  color: #ff6e3a;
+  font-weight: 900;
+  border: #eee;
+  margin-bottom: 60px;
 }

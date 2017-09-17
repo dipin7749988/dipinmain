@@ -124,6 +124,9 @@ section#section_future img {
 section#section_future i {
   font-size: 30px;
 }
+section#section_future a {
+  color:  #ff6e3a;
+}
 section#section_future .feature {
   padding-top: 20px;
   padding-bottom: 20px;

@@ -68,7 +68,15 @@ section#section_ask h2 {
   text-align: center;
   color: #ff6e3a;
 }
-
+section#section_ask .col-sm-7.button {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+section#section_ask .col-sm-7 a {
+  color: #ff6e3a;
+  
+}
 section#section_ask2 {
   text-align: center;
 }
@@ -124,15 +132,21 @@ section#section_future img {
 section#section_future i {
   font-size: 30px;
 }
-section#section_future a {
-  color:  #ff6e3a;
-}
+
 section#section_future .feature {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 section#section_future .featured {
   color: #B9121B;
+}
+section#section_future a {
+  color: #ff6e3a;
+ 
+}
+section#section_future .col-sm-6.button {
+  text-align: center;
+  margin-top: 20px;
 }
 
 section.story {

@@ -95,7 +95,9 @@ section#section_about .img_wrap {
   height: 220px;
   overflow: hidden;
 }
-
+section#section_about h4 {
+  line-height: 25px;
+}
 section#section_story {
   background-color: #222;
   color: white;
@@ -103,6 +105,9 @@ section#section_story {
 }
 section#section_story i {
   color: #ff6e3a;
+}
+section#section_story h4 {
+  line-height: 25px;
 }
 section#section_story .orange {
   color: #ff6e3a;
